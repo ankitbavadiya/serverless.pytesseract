@@ -30,7 +30,7 @@ from packaging.version import Version
 from PIL import Image
 
 
-tesseract_cmd = 'tesseract'
+tesseract_cmd = '/opt/tesseract'
 
 numpy_installed = find_loader('numpy') is not None
 if numpy_installed:
